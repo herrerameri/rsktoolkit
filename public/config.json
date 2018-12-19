@@ -1,0 +1,6 @@
+{
+  "SITE" : {
+    "port" : 8005,
+    "serverUrl" : "localhost"
+  }
+}

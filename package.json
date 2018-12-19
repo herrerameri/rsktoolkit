@@ -1,0 +1,13 @@
+{
+  "name": "rsk-toolkit",
+  "private": true,
+  "version": "1.0.0",
+  "description": "RSK Toolkit",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "request": "2.87.0"
+  },
+  "devDependencies": {}
+}

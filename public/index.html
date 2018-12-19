@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">  
+  <link rel="stylesheet" href="../css/google-font.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/wizard.css">
+  <link rel="stylesheet" href="../css/fontawesome.css">
+  <link rel="stylesheet" href="../css/solid.css">
+  <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="../js/popper.min.js"></script>  
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/wizard.js"></script>  
+  <script type="text/javascript" src="../js/fontawesome.js"></script>      
+  <title>RSK Toolkit</title>
+</head>
+<body>
+    <div class="image-container set-full-height" style="background-image: url('../backgroundRsk.png')">	   
+	    <!--   Big container   -->
+	    <div class="container">
+	        <div class="row">
+		        <div class="col-8 container-fluid">
+		            <!-- Wizard container -->
+		            <div class="wizard-container">
+		                <div class="card wizard-card" data-color="green" id="wizard">
+		                    <form action="" method="">		       
+		                    	<div class="wizard-header">
+		                        	<h3 class="wizard-title">RSK Toolkit <i class="fas fa-toolbox"></i></h3>
+                              <h4 class="info-text">All the tools you need.</h4>
+		                    	</div>
+                          <div class="wizard-navigation">
+                            <ul>
+                                <li><a href="#testnet" data-toggle="tab">Testnet</a></li>
+                                <li><a href="#mainnet" data-toggle="tab">Mainnet</a></li>
+                            </ul>
+                          </div>
+                          <div class="tab-content">
+                            <div class="tab-pane" id="mainnet">
+                            </div>
+                            <div class="tab-pane" id="testnet">
+                                <div class="col-sm-12 ml-12 row container text-center pt-5">
+                                  <div class="col-sm-4 link" onclick="window.open('https://status.rsk.co/','_blank')">
+                                    <i class="fas fa-thermometer-full fa-4x text-success"></i><br/>
+                                    <label>Status</label>
+                                  </div>
+                                  <div class="col-sm-4 link" onclick="window.open('https://explorer.testnet.rsk.co/','_blank')">
+                                    <i class="fas fa-search fa-4x text-success"></i><br/>
+                                    <label>Explorer</label>
+                                  </div>
+                                  <div class="col-sm-4 link" onclick="window.open('https://stats.testnet.rsk.co/','_blank')">
+                                    <i class="fas fa-chart-bar fa-4x text-success"></i><br/>
+                                    <label>Stats</label>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 ml-12 row container text-center pt-5">
+                                  <div class="col-sm-4 link" onclick="window.open('https://faucet.testnet.rsk.co/','_blank')">
+                                    <i class="fas fa-tint fa-4x text-success"></i><br/>
+                                    <label>Faucet</label>
+                                  </div>
+                                  <div class="col-sm-4 link">
+                                    <i class="fas fa-clipboard-check fa-4x text-success"></i><br/>
+                                    <label>Address Checker</label>
+                                  </div>
+                                  <div class="col-sm-4 link">
+                                    <i class="fas fa-broadcast-tower fa-4x text-success"></i><br/>
+                                    <label>Broadcaster</label>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 ml-12 row container text-center pt-5">
+                                  <div class="col-sm-4 link" onclick="window.open('https://utils.rsk.co/','_blank')">
+                                    <i class="fas fa-equals fa-4x text-success"></i><br/>
+                                    <label>BTC-RSK address<br/> converter</label>
+                                  </div>
+                                  <div class="col-sm-4 link">
+                                    <i class="fas fa-exchange-alt fa-4x text-success"></i><br/>
+                                    <label>Unit converter</label>
+                                  </div>
+                                  <div class="col-sm-4 link" onclick="window.open('https://gitter.im/rsksmart','_blank')">
+                                    <i class="fas fa-comments fa-4x text-success"></i><br/>
+                                    <label>Gitter Channel</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+		                    </form>
+		                </div>
+		            </div> <!-- wizard container -->
+		        </div>
+	    	</div> <!-- row -->
+		</div> <!--  big container -->
+	</div>
+</body>
+</html>
